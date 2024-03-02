@@ -46,12 +46,17 @@ header {
     color: #B22222;
 }
 
-h1 {
+.h1 {
     color: white;
     font-size: 38px;
     font-family: "PT Serif", serif;
     font-weight: 700;
     font-style: normal;
+}
+
+.h1:hover{
+    transition: 1s;
+    color: white;
 }
 
 .p {
