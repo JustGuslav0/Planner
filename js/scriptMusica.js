@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var switchButton = document.getElementById("checkbox");
     var audio = document.getElementById("myAudio");
     var isPlaying = false;
-    audio.loop=true.
+    audio.loop=true;
 
     switchButton.addEventListener("change", function() {
         if (this.checked) {
