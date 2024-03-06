@@ -8,11 +8,9 @@ document.addEventListener("DOMContentLoaded", function() {
         if (this.checked) {
             audio.play();
             isPlaying = true;
-            console.log("Música iniciada");
         } else {
             audio.pause();
             isPlaying = false;
-            console.log("Música pausada");
         }
     });
 });
